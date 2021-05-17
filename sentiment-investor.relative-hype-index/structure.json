@@ -1,0 +1,14 @@
+{
+  "name": "sentiment-investor.relative-hype-index",
+  "description": "RHI is a measure of whether people are talking about a stock more or less than usual. It is calculated by averaging the past day of AHI values and then dividing it by the average AHI over the past week for that stock.",
+  "inputs": {
+    "sentiment-investors": {
+      "type": "sentiment-investor"
+    }
+  },
+  "outputs": {
+    "record": {
+      "type": "sentiment-investor.record"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "sentiment-investor",
+  "outputs": {
+    "sentiment-investor": {
+      "type": "sentiment-investor"
+    }
+  },
+  "vault": ["token", "key"]
+}

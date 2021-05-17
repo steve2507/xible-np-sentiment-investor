@@ -1,0 +1,14 @@
+{
+  "name": "sentiment-investor.absolute-hype-index",
+  "description": "AHI is a measure of how much people are talking about a stock on social media. It is calculated by taking the total number of mentions for each social media/post type, dividing it by a fixed value*, multiplying it by a specific weight for that social media and then summing all these values.",
+  "inputs": {
+    "sentiment-investors": {
+      "type": "sentiment-investor"
+    }
+  },
+  "outputs": {
+    "record": {
+      "type": "sentiment-investor.record"
+    }
+  }
+}
